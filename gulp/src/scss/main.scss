@@ -11,13 +11,13 @@
 
 // ==== 4. Components ====
 @use 'components/button';
-@use 'components/card';
+@use 'components/cards';
 @use 'components/header';
 
 // pages
 @use 'components/page-flower';
+@use 'components/product';
 
 body {
 text-align: center;
-  background-color: var(--main-color);
 }

@@ -1,0 +1,13 @@
+button{
+  border: 0;
+  color: white;
+  background-color: #f9a825;
+  font-size: 16px;
+  font-family: "Arial Black";
+  transition: all 0.5s ease;
+  cursor: pointer;
+}
+.button:hover{
+  background-color: #d48c0d;
+  transform: translateY(-5px);
+}

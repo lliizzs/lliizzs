@@ -19,10 +19,55 @@
             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             Ut elit tellus, luctus nec ullamcorper mattis.
         </p>
-        <button class="btn-flower">BUY NOW</button>
+        @@include('./_button.html', {
+        "padding-x": "72px",
+        "padding-y": "25px",
+        "border-radius": "0px",
+        "title": "BUY NOW",
+        "color": "var(--primary-color)",
+        "font-size": "16px"
+        })
     </div>
 </section>
-
+<section class="section-browse">
+    <div class="conterner-browse">
+        <div class="tag-browse">
+            Browse The Range
+        </div>
+        <p class="description-product">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        </p>
+        <picture class="pic-product">
+            <div class="conterner-dining">
+                <img src="./assets/images/pic_din.webp" alt="" class="pic-dining">
+                <div class="title-dining">Dining</div>
+            </div>
+            <div class="conterner-living">
+                <img src="./assets/images/pic_living.webp" alt="" class="pic-living">
+                <div class="title-living">Living</div>
+            </div>
+            <div class="conterner-bedroom">
+                <img src="./assets/images/pic_din.webp" alt="" class="pic-bedroom">
+                <div class="title-bedroom">Bedroom</div>
+            </div>
+        </picture>
+    </div>
+</section>
+<section class="section-cards">
+    <div class="conterner-cards">
+        <div class="tag-cards">Our Products</div>
+    </div>
+    @@include('./_cards.html', {
+    "img": "./assets/images/pic_Syltherine",
+    "circle": "-30%",
+    "title": "Syltherine",
+    "text": "Stylish cafe chair",
+    "cost": "Rp 2.500.000",
+    "sale": "Rp 3.500.000",
+    "isCircle": true,
+    "isSale": true,
+    })
+</section>
 
 
 

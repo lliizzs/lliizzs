@@ -1,13 +1,29 @@
+
 <section class="cards">
     <picture>
-    <img src="@@img.webp" alt="@@alt" class="cards-one">
+        <img src="@@img.webp" alt="@@alt" class="cards-img">
+        @@if (context.circleText) {
+        <div class="discount-circle @@circleClass">@@circleText</div>
+        }
+        <div class="cards-hover">
+            <button class="add-to-cart">Add to cart</button>
+            <div class="hover-actions">
+                <span><i class="icon-share"></i> Share</span>
+                <span><i class="icon-compare"></i> Compare</span>
+                <span><i class="icon-like"></i> Like</span>
+            </div>
+        </div>
     </picture>
     <div class="cards-body">
         <div class="conterner-cards">
             <h2 class="title-cards">@@title</h2>
-            <p class="tetx-cards">@@text</p>
-            <p class="sale-cards">@@sale</p>
-            <div class="img-container"></div>
+            <p class="text-cards">@@text</p>
+            <div class="price-container">
+                <p class="cost-cards">@@cost</p>
+                @@if (context.isSale) {
+                <p class="sale-cards">@@sale</p>
+                }
+            </div>
         </div>
     </div>
 </section>

@@ -13,10 +13,12 @@
 @use 'components/button';
 @use 'components/cards';
 @use 'components/header';
+@use 'components/footer';
 
 // pages
 @use 'components/page-flower';
 @use 'components/product';
+@use 'components/high';
 
 body {
 text-align: center;

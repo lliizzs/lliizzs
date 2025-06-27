@@ -49,7 +49,7 @@ text-transform: uppercase;
   margin-top: 100px;
   .inspiration-header{
     text-align: left;
-    margin-left: 100px;
+    margin-left: 200px;
 
     .inspiration-title{
       font-family: "Arial Black";
@@ -70,7 +70,7 @@ text-transform: uppercase;
     flex-direction: column;
     align-items: flex-start;
     gap: 10px;
-  margin-left: 600px;
+  margin-left: 750px;
     margin-top: -400px;
     .room-number-large {
       font-size: 72px;
@@ -108,5 +108,262 @@ text-transform: uppercase;
       }
     }
   }
+  .strelka-pic{
+    position: absolute;
+  padding-top: 502px;
+    padding-left: 200px;
+  }
+  .conterner-livingroom{
+
+    position: absolute;
+margin-top:  -600px;
+    margin-left: 1200px;
+
+  }
+  .conterner-kitchen{
+    position: absolute;
+    margin-top:  -600px;
+    margin-left: 1600px;
+  }
+  .pic_krug{
+  margin-left: 600px;
+    margin-top: -100px;
+  }
+  .pic-grey{
+    margin-top: -25px;
+    margin-left: 150px;
+    .pic-gr{
+      margin-left: 20px;
+    }
+  }
+}
+.section-picture{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin-top: 100px;
+  .tag-picture{
+    text-align: center;
+    font-family: "Arial Black";
+    color:  #616161;
+    font-size: 20px;
+  }
+  .description-picture{
+    text-align: center;
+    font-family: "Arial Black";
+    color:  #3A3A3A;
+    font-size: 40px;
+  }
 }
 
+.pic-shop{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Arial', sans-serif;
+  font-size: 20px;
+  padding-top: 20px;
+  .shop-subtitle{
+    padding-left: 15px;
+  }
+}
+.shop-text{
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+  font-size: 60px;
+  margin-top: -300px;
+}
+.shop-pic{
+  width: 100%;
+}
+
+.conterner-filter{
+  background-color: #F9F1E7;
+  width: 100%;
+  height: 100px;
+  margin-top: 200px;
+}
+
+.imlter-img{
+  display: flex;
+  font-family: 'Arial', sans-serif;
+  align-items: center;
+ padding-top: 25px;
+padding-left: 150px;
+}
+.f-img{
+width: 20px;
+  height: 20px;
+}
+.c-img{
+  width: 20px;
+  height: 20px;
+  padding-left: 20px;
+}
+.p-img{
+  width: 20px;
+  height: 20px;
+  padding-left: 20px;
+}
+.f-title{
+  font-size: 20px;
+  padding-left: 20px;
+}
+.palka-title{
+  font-size: 30px;
+  padding-left: 25px;
+}
+.text{
+  padding-left: 25px;
+  font-size: 20px;
+}
+.box-text{
+  display: flex;
+  font-size: 28px;
+  padding-left: 500px;
+}
+.box-img{
+  margin-left: 25px;
+  background-color: #FFFFFF;
+  width: 40px;
+  height: 40px;
+  color: #9F9F9F;
+}
+.by{
+  margin-left: 25px;
+}
+.b-img{
+  margin-left: 25px;
+  background-color: #FFFFFF;
+  width: 200px;
+  height: 40px;
+  color: #9F9F9F;
+}
+
+.text-but{
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+  font-family: 'Arial', sans-serif;
+  font-size: 20px;
+  .but-1{
+  background-color: #B88E2F;
+    color: white;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 1px solid #ddd;
+    padding: 0 20px;
+    box-sizing: border-box;
+    border-radius: 5px;
+  }
+  .but-2{
+    margin-left: 50px;
+    background-color: #F9F1E7;
+    color: black;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 1px solid #ddd;
+    padding: 0 20px;
+    box-sizing: border-box;
+    border-radius: 5px;
+  }
+  .but-3{
+    margin-left: 50px;
+    background-color: #F9F1E7;
+    color: black;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 1px solid #ddd;
+    padding: 0 20px;
+    box-sizing: border-box;
+    border-radius: 5px;
+  }
+  .but-next{
+    margin-left: 50px;
+    background-color: #F9F1E7;
+    color: black;
+    width: 120px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 1px solid #ddd;
+    padding: 0 20px;
+    box-sizing: border-box;
+    border-radius: 5px;
+  }
+}
+
+.cart-box{
+  background-color: #F9F1E7;
+  color: black;
+  width: 800px;
+  height: 60px;
+  border: 1px solid #ddd;
+  padding: 0 20px;
+ margin-top: 300px;
+  margin-left: 200px;
+  .cart-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Arial', sans-serif;
+
+  }
+  .title-price{
+    margin-left: 100px;
+    margin-top: 20px;
+  }
+  .title-quantity{
+    margin-left: 100px;
+    margin-top: 20px;
+  }
+  .title-subtotal{
+    margin-left: 50px;
+    margin-top: 20px;
+  }
+  .title-produc{
+    margin-top: 20px;
+  }
+}
+.cart-item{
+   background-color: #F9F1E7;
+   width: 80px;
+   height: 60px;
+   margin-top: 100px;
+  border-radius: 5px;
+   width: 105px;
+   height: 105px;
+ }
+.cart-pic{
+  margin-top: 10px;
+}
+.butt{
+background-color: #FFFFFF;
+color: #333333;
+width: 30px;
+height: 30px;
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+border: 1px solid #333333;
+padding: 0 20px;
+box-sizing: border-box;
+border-radius: 5px;
+}
